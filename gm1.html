@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<title>Taller</title>
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+
+		<link rel="stylesheet" type="text/css" href="css/estilo.css">
+
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+	<!-- Optional theme -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+	<!--Añadiendo Jquery a nuestra página -->
+	<script type="text/javascript" src="https://code.jquery.com/jquery-3.2.0.min.js"></script>
+
+	<!-- Latest compiled and minified JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+</head>
+<body>
+		<nav class="navbar navbar-default navbar-inverse navbar-fixed-top">
+			<div class="container">
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#nav1" aria-expander="false">
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<a class="navbar-brand" href="#">
+               			<img src="img/logo.jpg" class="img img-responsive" alt="" width="70" height="80" />
+           			</a>
+       			</div>
+					
+				<div class="collapse navbar-collapse" id="nav1">
+					<ul class="nav navbar-nav">
+						<li>
+							<a href="gm1.html">Inicio</a>
+						</li>
+						<li class="dropdown">
+							<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Categoria de Obras <span class="caret"></span></a>
+							<ul class="dropdown-menu" style="background:#616161;">
+								<li>
+                        			<a class="page-scroll a" href="gm1.html#obras" >Obras</a>
+								</li>
+								<li>
+									<a class="page-scroll a" href="gm1.html#colecciones" >Colecciones de relatos</a>
+								</li>
+								<li>
+									<a class="page-scroll a" href="gm1.html#noficcion" >No ficción</a>
+								</li>
+								<li>
+									<a class="page-scroll a" href="gm1.html#guiones" >Guiones</a>
+								</li>
+							</ul>
+						</li>
+						<li>
+							<a href="gm2.html">Libros destacados</a>
+						</li>
+						<li>
+							<a href="gm3.html">¿Quieres conocer mas?</a>
+						</li>
+					</ul>
+					<form class="navbar-form navbar-right">
+						<div class="form-group">
+							<input type="text" class="form-control" placeholder="Ingreso texto">
+						</div>
+						<button type="submit" class="btn btn-default">Buscar</button>
+					</form>
+					
+				</div>
+			</div>
+		</nav>
+	
+	<!--Contenido -->
+	<header>
+	<div class="container" >
+		<h1 class="h1">Stephen King<small class="small"> El maestro del terror</small></h1>
+		<article class="row article" >
+			<section class="col-xs-12 col-sm-8 col-md-9 col-lg-9">
+				<h3 class="h3-biog">Biografia</h3><br>
+				<p class="text-capitalize p-header"><em>Stephen Edwin King nació el 21 de Septiembre de 1947 en la ciudad de Portland, en el estado de Maine (Estados Unidos). Sus padres son Donal King y Nellie Ruth Pillsbury. Stephen tiene un hermano nacido y adoptado en el año 1945. Su padre les abandonó cuando Stephen tenía dos años lo que supuso un paso muy duro para su madre sacar la familia adelante.<br/>
+				King ganó una beca para ir a la universidad de Maine y más tarde enseñó Lengua mientras su esposa Tabitha Spruce, con la que se casó en 1971, conseguía el doctorado. King se graduó en la universidad de Maine con el título de profesor bachiller de Lengua. Mientras escribía historias cortas se mantenía económicamente enseñando y trabajando como conserje, así como en numerosos trabajos.<br/> 
+				Uno de los datos más curiosos del autor es el de que varios libros los ha escrito bajo el seudónimo de Richard Bachman como "Thinner" (Maleficio, 1984), "The Dark Half" (La Mitad Oscura, 1989). Su primera obra publicada fue Carrie (1974, llevada al cine en 1976). Desde esa fecha a publicado incansablemente, convirtiéndose en un escritor muy prolífico, y muchas de sus obras han sido llevadas al cine transformándose en éxitos de crítica y público, como Stand by me y Misery de Rob Reiner, El Resplandor de Stanley Kubrick y Pet Cemetery de Mary Lambert.
+				</em></p>
+			</section>
+			<aside class="col-xs-12 col-sm-4 col-md-3 col-lg-3">
+				<h3>Stephen King</h3><br>
+				<a href="#king" data-toggle="modal">
+                     <i class="fa fa-plus fa-3x"></i>
+					<img src="img/King.jpg" class="img img-responsive">
+				</a>
+			</aside>
+		</article>
+	</div>
+	</header>
+
+    <section class="success obras" id="obras">
+		<div class="container-fluid div-obscure" >
+            <div class="row" >
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading h2">Algunas Obras</h2>
+                </div>
+            </div>
+
+            <div class="row" >
+				<div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
+					<h4 class="h4">La torre oscura</h4>
+					<img src="img/1.png" class="img img-responsive" width="98%">
+					<br>
+				</div>
+				<div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
+					<h4 class="h4">Salem's LOT</h4>
+					<img src="img/2.jpg" class="img img-responsive"  width="93%">
+					<br>
+				</div>
+			
+				<div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
+					<h4 class="h4">Pesadillas y alucionaciones</h4>
+					<img src="img/3.jpg" class="img img-responsive" width="80%">
+					<br>
+				</div>
+
+				<div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
+					<h4 class="h4">It</h4>
+					<img src="img/5.jpg" class="img img-responsive" width="80%">
+					<br>
+				</div>
+			</div>
+        </div>
+    </section>
+
+    <section class="success obras" id="colecciones">
+		<div class="container-fluid div-obscure" >
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading h2">Colecciones de relatos</h2>
+                </div>
+            </div>
+            <div class="row">
+				<div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
+					<h4 class="h4">El umbral de la noche</h4>
+					<img src="img/Colecciones_de_relatos/el_umbral.jpg" class="img img-responsive" width="100%">
+					<br>
+				</div>
+				<div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
+					<h4 class="h4">Las cuatro estaciones</h4>
+					<img src="img/Colecciones_de_relatos/las_4_estaciones_1.jpg" class="img img-responsive" width="99%">
+					<br>
+				</div>
+			
+				<div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
+					<h4 class="h4">Skeleton Crew</h4>
+					<img src="img/Colecciones_de_relatos/skeleton.jpg" class="img img-responsive" width="92%">
+					<br>
+				</div>
+
+				<div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
+					<h4 class="h4">Las cuatro después de la medianoche</h4>
+					<img src="img/Colecciones_de_relatos/las_cuatro_despues.jpg" class="img img-responsive" width="99%">
+					<br>
+				</div>
+			</div><br>
+        </div>
+    </section>
+
+    <section class="success obras" id="noficcion">
+		<div class="container-fluid div-obscure">
+            <div class="row" >
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading h2">No ficción</h2>
+                </div>
+            </div>
+
+            <div class="row">
+				<div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
+					<h4 class="h4">Danza macabra</h4>
+					<img src="img/No_ficcion/Danse_Macabre.jpg" class="img img-responsive" width="95%">
+					<br>
+				</div>
+				
+			
+				<div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
+					<h4 class="h4">Mientras escribo</h4>
+					<img src="img/No_ficcion/mientras_escribo.jpg" class="img img-responsive" width="99%">
+					<br>
+				</div>
+
+				<div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
+					<h4 class="h4">Faithful</h4>
+					<img src="img/No_ficcion/campeones.jpg" class="img img-responsive" width="95%">
+					<br>
+				</div>
+
+				<div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
+					<h4 class="h4">Nightmares in the Sky:Gargoyles and Grotesques </h4>
+					<img src="img/No_ficcion/nightmares.jpg" class="img img-responsive"  width="100%">
+					<br>
+				</div>
+			</div><br>
+        </div>
+    </section>
+
+	<section class="success obras" id="guiones">
+		<div class="container-fluid div-obscure">
+            <div class="row" >
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading h2">Guiones</h2>
+                </div>
+            </div>
+
+            <div class="row">
+				<div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
+					<h4 class="h4">Cat's Eye</h4>
+					<img src="img/Guiones/cats_eyes.jpg" class="img img-responsive" width="95%">
+					<br>
+				</div>
+				<div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
+					<h4 class="h4">Creepshow</h4>
+					<img src="img/Guiones/Creepshow.jpg" class="img img-responsive" width="97%">
+					<br>
+				</div>
+			
+				<div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
+					<h4 class="h4">Silver Bullet</h4>
+					<img src="img/Guiones/silver_bullet.jpg" class="img img-responsive" width="92%">
+					<br>
+				</div>
+
+				<div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
+					<h4 class="h4">Sleepwalkers</h4>
+					<img src="img/Guiones/sleepwalkers.jpg" class="img img-responsive" width="99%">
+					<br>
+				</div>
+			</div><br>
+        </div>
+    </section>
+
+     <div class="modal fade" id="king" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content header2">
+            <div class="close-modal" data-dismiss="modal">
+                
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <!-- Detalles del proyecto-->
+                            <center><h2>Stephen King</h2>
+                            <img class="img-responsive" src="img/king.jpg" width="52%">
+                            
+                            <ul class="list-inline ul-li-panel">
+                                <li>Nacimiento:  21 de septiembre de 1947</li>
+                                <li>Ocupación: Novelista, guionista, columnista, productor, director</li>
+                                <li>Nacionalidad: 	estadounidense</li>
+                            </ul><br/>
+                            <button type="button" class="btn btn-primary"  data-dismiss="modal">Salir</button></center>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+	
+<!--Footer -->
+	<div class="sub-footer div-footer" >
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-6 col-md-6 col-lg-6">
+					<div class="text-left">
+						<br>
+						<p class="p-color">&copy;Desarrollado por Nicol Garrido & Raul Morales.</p>
+					</div>
+				</div>
+				<div class="col-sm-6 col-md-6 col-lg-6">
+    				<div class="text-right">
+    					<br>
+						<p class="p-color">Ingenieria en Informatica</p>
+    				</div>
+				</div>
+			</div>
+		</div>
+		<br>
+	</div>
+</body>
+</html>
